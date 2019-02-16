@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Auxidus</Authors>
+    <Description>Used for Domain object validaiton. Preferably used with DDD patterns</Description>
+    <Copyright>2019 Auxidus</Copyright>
   </PropertyGroup>
 
 </Project>
